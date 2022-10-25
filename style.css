@@ -1,0 +1,423 @@
+* {
+     margin: 0;
+     padding: 0px;
+     box-sizing: border-box !important;
+}
+
+.clr {
+     clear: both;
+}
+
+button {
+     cursor: pointer;
+}
+
+body {
+     max-width: 1440px;
+     background: linear-gradient(0deg, #1E183C 62.3%, #05060B 93.31%);
+}
+
+head {
+     gap: 20px;
+     width: 1400px;
+     display: flex;
+
+}
+
+.content {
+     float: left;
+     border-radius: 24px;
+     margin: 63px 0px 20px 66px;
+     background-color: #2c2744;
+     width: 800px;
+     height: 357px;
+
+}
+
+.content h1 {
+     color: #fff;
+     margin-top: 62px;
+     margin-left: 62px;
+     margin-bottom: 21px;
+}
+
+.content p {
+     margin: 0px 62px 60px 62px;
+     font-family: 'Helvetica Neue';
+     font-style: normal;
+     font-weight: 300;
+     font-size: 25px;
+     line-height: 43px;
+     color: #C5C5C5;
+}
+
+.content p span {
+     font-weight: 300;
+     font-size: 30px;
+     line-height: 43px;
+     color: #ffffff;
+}
+
+.chart {
+     position: relative;
+     margin-right: 67px;
+     margin-top: 63px;
+     float: right;
+     width: 400px;
+     height: 300px;
+}
+
+.chart img {
+     width: 400px;
+     height: 357px;
+}
+
+.chart .radius {
+     top: 40px;
+     left: 0px;
+     height: 260px;
+     position: absolute;
+}
+
+
+.container {
+     margin-top: 20px;
+     margin-left: 66px;
+}
+
+main {
+     display: flex;
+     margin-right: 66px;
+}
+
+.mainHead {
+     background: #FFFFFF;
+     border-radius: 24px;
+     Width: 440px;
+     Height: 169px
+}
+
+.mainHead h3 {
+     text-align: center;
+     padding-top: 18px;
+     font-family: 'Helvetica Neue';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 18px;
+     color: #000000;
+     padding-bottom: 20px;
+}
+
+.mainHead .run {
+     padding-right: 22px;
+     padding-left: 22px;
+     height: 59px;
+     width: 395px;
+     background: #F8F8F8;
+     border-radius: 9px;
+}
+
+.mainHead .run button {
+     color: white;
+     margin-right: 5px;
+     padding: 6px 15px;
+     border: none;
+     margin-top: 14px;
+     margin-bottom: 20px;
+     float: right;
+     background: #FE5B81;
+     border-radius: 16px;
+     font-size: 11px;
+}
+
+.run {
+     position: relative;
+     margin-left: 23px;
+}
+
+.run span {
+     margin-left: 5px;
+     color: #2D2D2D;
+
+}
+
+.run .top {
+     position: absolute;
+     bottom: 36px;
+     left: 91px;
+}
+
+.mainHead .more {
+     border: 1px solid #EDEDED;
+     margin-bottom: 12px;
+     background: #FFFFFF;
+     border-radius: 24px;
+     padding: 8px 47px;
+     margin-left: 134px;
+}
+
+main .mainLeft {
+     float: left;
+     margin-top: 18px;
+     width: 210px;
+     height: 190px;
+     background: #FFFFFF;
+     border-radius: 24px;
+}
+
+main .mainLeft h3 {
+     text-align: center;
+     padding-left: 43;
+     padding-top: 20px;
+     font-family: 'Helvetica Neue';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 18px;
+     color: #000000;
+
+}
+
+main .mainLeft p {
+     padding-top: 15px;
+     text-align: center;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 24px;
+     line-height: 18px;
+     color: #4D61F6;
+}
+
+.mainLeft .zoom {
+     margin-right: 6px;
+     padding: 6px 20px;
+     color: white;
+     border: none;
+     margin-left: 10px;
+     background: #4D61F6;
+     border-radius: 16px;
+     margin-top: 20px;
+}
+
+.mainLeft button {
+     margin-top: 20px;
+     padding: 6px 12px;
+     margin-right: 10px;
+     color: black;
+     border: none;
+     background: #EDEDED;
+     border-radius: 16px;
+}
+
+.mainLeft .events {
+     background-color: white;
+     padding: 6px 45px;
+     border: 1px solid #EDEDED;
+     border-radius: 16px;
+     margin-left: 12px;
+}
+
+.mainRight {
+     margin-left: 15px;
+     position: relative;
+     margin-top: 18px;
+     float: left;
+     width: 210px;
+     height: 190px;
+     background: #FFFFFF;
+     border-radius: 24px;
+}
+
+.mainRight h3 {
+     margin: 20px 40px;
+     font-family: 'Helvetica Neue';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 18px;
+     color: #000000;
+}
+
+.mainRight img {
+     margin-left: 20px;
+
+     border-radius: 50% !important;
+     height: 60px;
+     width: 60px;
+     border-radius: 0px;
+
+}
+
+.mainRight span {
+     left: 90px;
+     position: absolute;
+     top: 70px;
+}
+
+.mainRight button {
+     color: white;
+     margin-left: 6px;
+     padding: 6px 22px;
+     border: none;
+     background: #4D61F6;
+     border-radius: 16px;
+     margin-top: 20px;
+}
+
+.centerBox {
+     margin-left: 21px;
+     height: 377px;
+     width: 350px;
+     border-radius: 24px;
+     margin-top: 20px;
+     background: #FFFFFF;
+     border-radius: 24px;
+}
+
+.centerBox .title {
+     margin-top: 20px;
+     margin-bottom: 20px;
+     text-align: center;
+     font-family: 'Helvetica Neue';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 18px;
+     color: #000000;
+
+}
+
+.centerBox .file {
+     width: 46px;
+     height: 46px;
+     border-radius: 20%;
+     border: 25px solid #674DF6;
+}
+
+.centerBox .file img {
+     margin-left: -10px;
+     margin-top: -15px;
+     height: 30px;
+     width: 22px;
+}
+
+.centerBox .itemBox {
+     position: relative;
+     display: flex;
+     margin-left: 22px;
+     background: #F8F8F8;
+     border-radius: 9px;
+     align-items: center;
+     width: 305px;
+     height: 65px;
+     margin-bottom: 20px;
+}
+
+.centerBox .itemBox .flexible {
+     position: absolute;
+     right: 20px;
+     color: white;
+     border: none;
+     width: 50px;
+     height: 25px;
+     background-color: #C5C5C5;
+     ;
+     border-radius: 12.5px;
+}
+
+.centerBox .itemBox p {
+     margin-top: -15px;
+     margin-left: 14px;
+     font-family: 'Helvetica Neue';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 12px;
+     line-height: 15px;
+     color: #2D2D2D;
+}
+
+#strange {
+     background-color: #32DBBB !important;
+}
+
+.itemBox span {
+     color: #7d7d7d7d;
+     top: 35px;
+     left: 65px;
+     position: absolute;
+}
+
+.centerBtn {
+     margin: 15px 70px 30px 70px;
+     border-radius: 20px;
+     font-family: 'Helvetica Neue';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 10px;
+     line-height: 12px;
+     text-align: center;
+     color: #2D2D2D;
+     background-color: white;
+     border: 2px solid #EDEDED;
+     padding: 7px 38px;
+}
+
+
+
+.feed img {
+     margin-top: 20px;
+     margin-left: 21px;
+     height: 378px;
+     width: 390px;
+}
+.charts{
+     position: relative;
+     display: none;
+     border-radius: 24px;
+     margin: 0px 67px 0px 66px;
+     padding: 50px 77px;
+     background-color: #2c2744;
+     width: 1215px;
+     height: 270px;
+}
+
+.charts img{
+     width: 1050px;
+     height: 200px;
+}
+
+.opener:hover .hover{
+     cursor: pointer;
+     display: block;
+}
+
+.fa-ellipsis{
+     top: 10px;
+     right: 30px;
+     position: absolute;
+     cursor: pointer;
+     margin-left: 20px;
+     margin-bottom: -10px;
+     color: #fff;
+     font-size: 40px;
+}
+.fa-circle-xmark{
+     cursor: pointer;
+     top: 10px;
+     right: 20px;
+     position: absolute;
+     cursor: pointer;
+     color: #fff;
+     font-size: 40px;
+}
+
+.fa-ellipsis:hover{
+     cursor: pointer;
+}
+
+
+.content:hover .hover{
+     position: absolute;
+     top: 0px;
+}

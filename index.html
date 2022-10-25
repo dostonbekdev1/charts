@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="./media/Icons/fontawesome.css">
+     <title>Figma</title>
+</head>
+
+<body>
+
+     <head>
+          <div class="content">
+               <h1>Happy Tuesday, Lily. </h1>
+               <p>Lorem ipsum dolor sit amet, dicam diceret molestiae in his. Eum putent possit ea. Ex mei
+                    <span>discere</span>
+                    feugiat, pri ex nisl delicata sapientem, quod bonorum appetere te per. Offendit dissentiunt at nam,
+                    <span>ea has</span> illud dolore deseruisse.
+               </p>
+          </div>
+          <div class="chart">
+               <i onclick="openChart()" class="fa-solid fa-ellipsis"></i>
+               <img src="./media/bg.png" alt="">
+               <img class="radius" src="./media/Rings.svg" alt="">
+          </div>
+     </head>
+
+     <div class="clr"></div>
+
+     <div class="charts">
+          <i onclick="closeChart()" class="fa-solid fa-circle-xmark"></i>
+
+          <img src="./media/Ring set.png" alt="">
+     </div>
+
+
+     <main class="main">
+          <div class="container">
+               <div class="mainHead">
+                    <h3>Creative Reviews</h3>
+                    <div class="run">
+                         <img src="./media/Bitmap.png" alt="">
+                         <span class="top">Reel</span>
+                         <span>3 hours ago </span>
+                         <button>Needs Review</button>
+                    </div>
+                    <button class="more">2 more reviews</button>
+               </div>
+               <div class="mainLeft">
+                    <h3>Call with The Team</h3>
+                    <p>In 43 min</p>
+                    <button class="zoom">Join Zoom</button>
+                    <button>Details</button>
+                    <div><button class="events">7 more events</button></div>
+               </div>
+               <div class="mainRight">
+                    <h3>Account Manager</h3>
+                    <img src="./media/Bitmap (1).png" alt="">
+
+                    <span>Sarah Smith</span>
+                    <div style="margin-left:17px">
+
+                         <button>Slack</button><button>Email</button>
+                    </div>
+               </div>
+          </div>
+
+          <div class="clr"></div>
+          <div class="centerBox">
+               <h3 class="title">Recent Documents</h3>
+               <div class="itemBox">
+                    <div class="file">
+                         <img src="./media/Shape.png" alt="">
+
+                    </div>
+                    <p>Service Agreement</p>
+                    <span class="mins">32 mins ago </span>
+                    <button id="strange" class="flexible ">Final</button>
+               </div>
+
+               <div class="itemBox">
+                    <div class="file">
+                         <img src="./media/a copy.png" alt="">
+
+                    </div>
+                    <p>Brand Strategy</p>
+                    <span class="mins">2 Hours ago </span>
+                    <button class="flexible">Draft</button>
+               </div>
+
+               <div class="itemBox">
+                    <div class="file">
+                         <img src="./media/Shape.png" alt="">
+
+                    </div>
+                    <p>Service Agreement</p>
+                    <span class="mins">5 Hours ago </span>
+                    <button class="flexible">Draft</button>
+               </div>
+               <button class="centerBtn">7 more documents</button>
+
+          </div>
+          <div class="feed">
+               <img src="./media/Feed.png" alt="">
+          </div>
+     </main>
+
+
+     <script src="./media/Icons/all.min.js"></script>
+     <script src="./media/Icons/fontawesome.js"></script>
+
+
+
+     <script>
+
+          let centerBox = document.querySelector('.centerBox');
+          let mainHead = document.querySelector('.mainHead');
+          let opener = document.querySelector('.fa-ellipsis');
+          let closer = document.querySelector('.fa-circle-xmark');
+          let charts = document.querySelector('.charts');
+          let main = document.querySelector('.main');
+          let openChart = () => {
+               charts.style.display = "block";
+          }
+          let closeChart = () => {
+               charts.style.display = "none";
+
+
+          }
+     </script>
+</body>
+
+</html>
